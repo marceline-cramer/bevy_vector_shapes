@@ -121,7 +121,7 @@ pub struct ShapeInstance<T> {
     pub material: ShapePipelineMaterial,
 
     /// The point in space used for ordering this point.
-    /// Ignored by the 3D pipeline.
+    /// Ignored by the 2D pipeline.
     pub origin: Vec3,
 
     /// The [`ShapeData`] of this shape.
